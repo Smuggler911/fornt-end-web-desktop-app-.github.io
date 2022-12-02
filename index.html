@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="shortcut icon" href=".\img\crate-svgrepo-com.svg" >   
+    <link rel="stylesheet" href="style.css">
+    <title>CRATE.</title>
+</head>
+<body>
+<main class="box">
+  <header class="header__box">
+
+    <div class="navbar">
+      <div class="navbar__links">
+        <a href="#" class="navbar__link">Apps</a>
+        <a href="#" class="navbar__link">Your Work</a>
+        <a href="#" class="navbar__link">Discover</a>
+        <a href="#" class="navbar__link">Market</a>
+      </div>     
+      <form class="navbar__form">
+        <input  class="search-input"name="q" placeholder="Search...">
+        <button class="navbar__form__button"><img src=".\img\search-svgrepo-com.svg"></button>   
+         
+      </form>
+        <a href="#" class="navbar__login" onfocus="popUp()"><img src=".\img\avatar-profile-svgrepo-com.svg"></a>
+        <label id="userName"></label>
+        <img src=".\img\shopping-cart-svgrepo-com.svg" id="shoppingCart">
+        <label id="count__bar">0</label>
+        
+       
+           
+    </div>
+  </header>
+  <aside class="aside__box">
+    <div class="navlinks">
+        <h2>srs</h2>
+        <a href="#"><img src=".\img\app-svgrepo-com (1).svg"><span>Apps</span></a>
+        <a href="#"><img src=".\img\update-svgrepo-com (1).svg">Updates</a>
+        <h2>categories</h2>
+        <a href="#"> <img src=".\img\photo-svgrepo-com.svg">Photographies</a>
+        <a href="#"><img src=".\img\video-svgrepo-com.svg">Videos</a>
+        <a href="#"><img src=".\img\graphic-design-svgrepo-com.svg">Graphic Design</a>
+        <a href="#"><img src=".\img\ink-svgrepo-com.svg">illustrations</a>
+        <a href="#"><img src=".\img\web-ui-svgrepo-com.svg">UI/UX</a>
+        <a href="#"><img src=".\img\3d-svgrepo-com.svg">3D/AR</a>
+        <h2>links</h2>
+        <a href="#"><img src=".\img\stock-svgrepo-com.svg">Stock</a>
+        <a href="#"><img src=".\img\steps-svgrepo-com.svg">Tutorials</a>
+        <a href="#"><img src=".\img\money-svgrepo-com.svg">Behace</a>
+        <a href="#"><img src=".\img\google-buzz-sketched-social-logo-svgrepo-com.svg">Social Forum</a>
+
+        <label id="asidebx__time"></label>
+    </div>
+ 
+  </aside>
+  <div class="content">
+  <section class="section_box">
+    <div class="underhead_links">
+     <a href="#" class="underhead_link desktop" onfocus="display2() ">Desktop</a>
+     <a href="#" class="underhead_link mobile" onfocus="display(),display3()">Mobile</a>
+     <a href="#" class="underhead_link web"onfocus="display(),display3()">Web </a>
+    </div>
+  </section>
+  <section class="section2__box">
+    <div  class="container">
+      <div class="container__item first">
+        <div class="item__first__Add">
+          <img src="https://assets.codepen.io/3364143/glass.png" class="img__2">
+          <h2> <img src=".\img\app-svgrepo-com (2).svg" class="app__img" >STOCK APP</h2>
+         
+          <p>Grab yourself 10 free images from  Stock in a 30-day free trial plan and find perfect image, that will help you with your new project.</p>
+          <button type="button" class="item__first__button" onclick="increaseCount()">Start Free Trial</button> 
+        </div>
+      </div>
+      <div class="container__item second">
+        <div class="item__second__add">
+          <img src="https://winaero.com/blog/wp-content/uploads/2019/09/Photos-app-icon-256-colorful.png">
+         <h2>PhotoApp</h2>
+         <p>Grab yourself 10 free images from Photo App Stock in a 30-day free trial plan and find perfect image, that will help you with your new project.</p>
+         
+        </div>
+      </div>
+      <div class="columns">
+      <div class="column__item third">
+        <div class="column__apps">
+          <h2>VideoPro</h2>
+          <p>Edit, master and create fully proffesional videos</p>
+            <div class="links__app1">
+              <a href="#" class="column__app__button" onfocus="onUpdate()">Update </a> 
+              <a href="#" class="column__app__dots"><img src=".\img\menu-svgrepo-com.svg"></a>
+              <label id="column__app__uptodate"></label>
+            </div>
+        </div>
+      </div>
+      <div class="column__item fourth">
+          <div class="column__app2">
+          <h2>DesignPro</h2>
+          <p>Design and publish great projects & mockups</p>
+            <div class="links__app2">
+              <a href="#" class="column__app__button2"onfocus="onUpdate()">Update</a>
+              <a href="#" class="column__app__dots2"><img src=".\img\menu-svgrepo-com.svg"></a>
+            </div>  
+      </div>
+      </div>
+      <div class="column__item fifth">
+        <div class="column__app3">
+          <h2>EffectsPro</h2>
+          <p>Industry Standart motion graphics & visual effects</p>
+            <div class="links__app3">
+              <a href="#" class="column__app__button3"onfocus="onUpdate()">Update</a>
+              <a href="#" class="column__app__dots3"><img src=".\img\menu-svgrepo-com.svg"></a>
+            </div>  
+          </div>
+        </div>
+        </div>
+      </div>
+    
+    </div>  
+  </section>
+</div>
+</main>
+  <form class="login__form">
+    <div class="form__container">
+      <h2>Sign in</h2>
+      <div class="inputbox">
+        <input type="text" Id="inputText" required="required">
+        <span>Username</span>
+        <i></i>
+      <div class="inputbox__password">
+        <input type="password" class="inputPass" required="required">
+        <span>Password</span>
+        <i></i>
+      </div>
+      <div class="links_input">
+        <a href="#" class="link__forgot">Forgot paasword?</a>
+        <a href="#" class="link__signup">Sign UP</a>
+      </div>
+      <button  type="button" class="submitButton" onclick="login()">Login</button>
+      </div>
+    </div>
+  </form>
+  <form class="update__form">
+    <div class="box__update">
+      <h2 class="h2__update">Updating</h2>
+      <p class="p__update">Proceed to update : <button id="updateButton" onclick="updatingApp()" >Update</button> </p>
+      <div class="boxOut">
+        <div class="boxIn">
+          <div class="whiteLinne"></div>
+        </div>
+      </div>
+      <img src=".\img\loading-svgrepo-com (1).svg" class="upadteImg">
+      <div class="done">
+      <button type="button" id="doneButton">Done</button>
+    </div>
+    </div>
+  </form>
+  <section class="mobileWeb">
+    <div class="inWork">
+      <p class="mobWE">We are sorry to admit that this section is still in progress!!!</p>
+    </div>
+
+  </section>
+<script src="./app.js"></script>
+</body>
+</html>
