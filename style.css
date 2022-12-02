@@ -964,10 +964,50 @@ body{
 
 
 
+
+    
 @media (max-width:1020px) {
     
 .box{
-display: none;
+ width:50%;
+ height:80%
+}
+.header__box{
+    display: none;
 }
 
+.aside__box{
+display: none;
+  
+
+}
+
+
+.underhead_link.desktop{
+   display: none;
+}
+.underhead_link.mobile{
+   margin-left: 11rem;
+   font-size: 22px;
+}
+.underhead_link.web{
+    display: none;
+}
+
+.section2__box{
+    display: none;
+    
+}
+.mobileWeb{
+    display:flex;
+    margin-right: 15rem;
+    margin-bottom: 10rem;
+    opacity: 100%;
+}
+.inWork{
+    background-color:transparent;
+     font-size: 1px;
+      width: 350px;
+    border-radius: 1.5rem;
+}
 }
