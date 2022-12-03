@@ -964,12 +964,11 @@ body{
 
 
 
-
-    
-@media (max-width:1020px) {
+@media (max-width:900px) {
     
 .box{
- width:50%;
+position: relative;
+ width:80%;
  height:80%
 }
 .header__box{
@@ -1006,8 +1005,16 @@ display: none;
 }
 .inWork{
     background-color:transparent;
-     font-size: 1px;
+     
       width: 350px;
     border-radius: 1.5rem;
 }
+
+.mobWE{
+    color: white;
+    font-size: 1rem;
+    padding-top: 7rem;
+    padding-left: 7rem;
 }
+}
+
